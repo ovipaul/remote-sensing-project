@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Remote Sensing</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <head>
+    <style>
+        table {
+          font-family: Arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+    
+        th, td {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+    
+        th {
+          background-color: #f2f2f2;
+        }
+      </style>
+
+
+
+
+
+
+
+
+
+
+    </head>
+
+
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-re bg-white fixed-top" id="sideNav">
+            <figure style="max-width: 50%; text-align: center">
+                <img src="assets/img/uh.png" alt="..." style="max-width: 100%; text-align: center">
+            </figure>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <!-- <span class="d-block d-lg-none">Remote Sensing Project</span> -->
+
+
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/ncalm.png" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#abstract">Abstract</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#introduction">Introduction</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#data">Data</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#method">Method</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#result">Results</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#futurework">Future Work</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="home">
+                <div class="resume-section-content">
+
+
+
+                    <h1 class="mb-2">
+                        Deep Learning for Hydrographic Semantic 
+                        <span class="text-danger">Segmentation using Point Cloud Data</span>
+                    </h1>
+                    
+                    <div class="subheading mb-4">
+                        By <Ovi class="text-primary">Ovi Paul</span>
+                        <!-- <a href="mailto:opaul@edu.uh">opaul@edu.uh</a> -->
+                    </div>
+                    
+                    <div class="subheading mb-5">
+                        Course Instructor - <span class="text-danger">Dr. Shuhab D. Khan</span>
+                    </div>
+
+                    <figure style="float: left; margin-bottom: 80px; max-width: 40%; max-height: 200px;">
+                        <img src="assets/fig/home1.jpg" alt="" style="max-width: 100%; max-height: 100%;">
+                    </figure>
+
+                    <figure style="float: right; margin-bottom: 80px; max-width: 40%; max-height: 200px;">
+                        <img src="assets/fig/home.jpg" alt="" style="max-width: 100%; max-height: 100%;">
+                    </figure>
+                    <!-- <div class="social-icons">
+                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    </div> -->
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- abstract-->
+            <section class="resume-section" id="abstract">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Abstract</h2>
+                    <p>
+                        Bathymetric lidar data analysis often necessitates the laborious and manual identification and labeling of water bodies, such as rivers, seas, and lakes,
+                         owing to the lack of effective automated methods. This project strives to make advancement to this process by harnessing the power of deep learning.
+                          The deep learning model is meticulously trained using lidar data collected from the rivers of Montana. This dataset provides critical semantic segmentation
+                           for various aspects of river features, upon which the training of a sophisticated model known as PointCNN is conducted. This model exhibits the capacity
+                            to conduct river semantic segmentation across two distinct levels: the river's surface and the river's bottom. By achieving this, we enable the
+                             automatic, precise, and scientifically robust identification and classification of river morphology and topography, facilitating substantial
+                              advancements in hydrographic surveying and mapping processes.
+                            </p>
+                    <!-- <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p> -->
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Introduction-->
+            <section class="resume-section" id="introduction">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Introduction</h2>
+
+                    <p><strong>LiDAR Data:</strong> LiDAR (Light Detection and Ranging) is a remote sensing technology that measures distances by illuminating a target with laser light and analyzing the reflected light. LiDAR systems generate highly accurate three-dimensional point clouds, capturing the elevation of the Earth's surface and objects on it.</p>
+
+                    <p><strong>Bathymetric LiDAR Data:</strong> Bathymetric LiDAR specifically focuses on mapping underwater topography, including the depth of water bodies. This technology enables the collection of elevation data both above and below the water surface, providing a comprehensive view of the terrain beneath the water.</p>
+                    
+                    <p><strong>Importance of Bathymetric LiDAR Data:</strong> Bathymetric LiDAR is crucial for various applications, including coastal zone management, environmental monitoring, and navigation. Understanding underwater topography aids in hazard assessment, habitat mapping, and ensuring safe navigation for maritime activities.</p>
+
+                    <p><strong>Correction of Coordinate Shift in Bathymetric LiDAR Data:</strong> Bathymetric LiDAR data acquisition encounters inherent challenges related to coordinate shifts, primarily induced by the interaction of laser pulses with the water surface. While the x and y coordinates may experience relatively minor shifts upon laser penetration into the water medium, the alteration in the z coordinate, representing elevation, is notably pronounced. This elevation shift arises due to the complex interplay of factors such as refraction, reflection, and dispersion of laser beams within the water column. The substantial impact of z coordinate shifts on the accuracy of elevation measurements is a critical consideration in bathymetric LiDAR applications. The necessity to correct these coordinate shifts, especially in the vertical dimension, underscores the significance of meticulous calibration and advanced processing techniques, forming a key motivation for the present study. Addressing these challenges is paramount for ensuring the reliability and precision of bathymetric LiDAR data, thereby enhancing the effectiveness of environmental and maritime analyses.</p>
+                  
+
+                    <p><strong>Challenges in Identifying Water Surface and Bed:</strong> Identifying the water surface and bed from bathymetric LiDAR data poses challenges due to factors such as water turbidity, varying bottom compositions, and complex underwater features. Distinguishing between submerged objects, vegetation, and the actual water surface and bed requires advanced data processing techniques.</p>
+                  
+                    <p><strong>Limited Application of Deep Learning:</strong> Despite the widespread use of LiDAR, the application of deep learning techniques for automated identification of water surfaces and beds from bathymetric LiDAR data has been limited. The complex nature of underwater environments, combined with the scarcity of annotated training data, has hindered the development of robust deep learning models for this purpose.</p>
+                  
+                    <p><strong>Research Innovation:</strong> In this research, a pioneering approach has been undertaken to apply deep learning methodologies for the identification of water surfaces and beds in bathymetric LiDAR data. By leveraging convolutional neural networks (CNNs) and recurrent neural networks (RNNs), the study aims to overcome the challenges associated with traditional methods and enhance the accuracy and efficiency of underwater feature recognition. This research contributes to the advancement of automated underwater mapping techniques, offering a potential breakthrough in the utilization of bathymetric LiDAR data for environmental and maritime applications.</p>
+                  
+
+
+
+
+
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- data-->
+            <section class="resume-section" id="data">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Data</h2>
+                    <figure style="max-width: 80%; text-align: center;">
+                        <img src="assets/fig/data_source.png" alt="Location of survey polygons, aircraft trajectories, and GNSS reference stations" style="max-width: 80%">
+                        <figcaption><b>Fig-1: </b>Location of survey polygons, aircraft trajectories, and GNSS reference stations</figcaption>
+                    </figure>
+                    <p>
+
+The data collection involved two flights on August 8 and 9, 2022, utilizing a Robinson R44 aircraft equipped with a RIEGL VQ-840G LIDAR system (N74767) featuring a 532nm Green Laser and an
+ Integrated RGB Camera. Flight parameters included a flying height of 300–500 meters above ground level, a speed range of 40–60 knots, and a 50% overlap. The LIDAR system had a Pulse Repetition Rate
+  (PRR) of 50-100 kHz, a Field of View (FOV) of 28°, and used an elliptical scan pattern, while the camera had a 12-megapixel resolution and a 16mm focal length. The collected area covered 40 square
+   kilometers. Two GNSS reference stations, MTFV and SPTA215, provided control coordinates. Data processing involved calibration near Kalispell with a clover leaf pattern flight over sloping roofs,
+    roads, and paint markings. Classification included three classes for returns from the main water channel: Water Surface, Water Bottom, and Intermediate, with refraction correction for points
+     penetrating the water body. Ground classification utilized a morphological filter. Elevation models were generated using Kriging. The data's horizontal and vertical datums were NAD83(2011) epoch
+      2010.00 and NAVD88 (GEOID18), respectively, with UTM Zone 12N projection and units in meters.
+
+                    </p>
+                    
+                    <figure style=" max-width: 100%; text-align: center;">
+                        <img src="assets/fig/study_area.png" alt="" style=" max-width: 100%; text-align: center;">
+                        <figcaption><b>Fig-1: </b>X-Convolution of PointCNN</figcaption>
+                    </figure>
+
+                    <p>
+                        The ultimate dataset underwent a spatial clipping process, concentrating specifically on the Swan River area. This decision was motivated by the predominant representation of default and ground classes within the overall dataset, which were deemed superfluous for the primary study focus on the river region. The primary objective centered on the classification of the river surface and river bottom. Additionally, the default and ground classes, constituting the majority of the data, were deemed non-essential for the study objectives. A further consideration was the potential imbalance introduced by the extensive LIDAR data, which could adversely affect the class balance of the subsequent deep learning model. Recognizing the computational costs associated with protracted training times, this strategic spatial clipping aimed to streamline the dataset for efficient model training, minimizing computational expenses.
+
+                    </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- method-->
+            <section class="resume-section" id="method">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Methodology</h2>
+                    <figure style="max-width:80%; text-align: center;">
+                        <img src="assets/fig/xconv.png" alt="" style="max-width: 80%">
+                        <figcaption><b>Fig-1: </b>X-Convolution of PointCNN</figcaption>
+                    </figure>
+<p>
+
+The X-Convolution in PointCNN represents a pivotal component of the methodology, contributing to the model's efficacy in processing point cloud data. PointCNN employs a novel approach by introducing the X-Convolution operator, which enables the extraction of local features from unordered point sets. Unlike traditional convolutional operations designed for regular grid structures, the X-Convolution is tailored to handle the irregular and unstructured nature of point clouds.
+
+The X-Convolution operates by leveraging the inherent spatial relationships between points. It achieves this by introducing a set of learnable transformation matrices that dynamically adapt to the local geometric configuration of the point cloud. These transformation matrices are employed to reorient and align neighboring points, facilitating the extraction of meaningful local features.
+
+During the X-Convolution process, each point is assigned a weight based on its spatial relationships with its neighbors. This weight, determined through a learnable function, captures the importance of each neighboring point in influencing the feature extraction process. Consequently, the X-Convolution allows the model to focus on relevant local structures within the point cloud, enabling it to capture intricate geometric details.
+
+The X-Convolutional layers are instrumental in endowing PointCNN with the capability to effectively discern patterns and features within unstructured point clouds. This adaptability to irregular data structures is particularly advantageous for applications such as 3D object recognition and segmentation, where traditional convolutional operations may prove less effective due to the lack of grid-like organization in point cloud data.
+</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- result-->
+            <section class="resume-section" id="result">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Result</h2>
+
+                    <figure style="max-width: 100%; text-align: center;">
+                        <img src="assets/fig/default.png" alt="" style="max-width: 100%;">
+                        <figcaption><b>Fig-1: </b>X-Convolution of PointCNN</figcaption>
+                    </figure>
+          <p>
+
+In our testing, we're using a small piece of information, shown in a visual representation, to evaluate the performance of a computer program known as a deep learning model. This program learns from examples and makes predictions. The specific area under examination covers water regions, ground, and a default class, allowing us to see how well the model understands and predicts different aspects within these categories. The figure provides a visual summary of the results, helping us assess the model's effectiveness in recognizing and categorizing information in various environments.
+          </p>
+                
+                    <figure style="margin-right: 10px; max-width: 100%; max-height: 50%; text-align: center;"">
+                        <img src="assets/fig/tar.png" alt="" style="max-width: 100%; max-height: 100%;">
+
+                        <img src="assets/fig/pred.png" alt="" style="max-width: 100%; max-height: 100%;">
+                        <figcaption><b>Fig-1: </b>X-Convolution of PointCNN</figcaption>
+                    </figure>
+
+<p>
+    The first column in the figure corresponds to the classified semantic segmented classes, where second and third column represents a specific category assigned to the same data. The white class signifies the default category, while the ground class is associated with a brown color. The yellow class corresponds to the water surface, and the cyan class pertains to the bottom. The upper section designates the target class, representing the expected classification, while the lower sections denote the predicted classes generated by the deep learning model. This arrangement allows for a detailed examination of how well the model aligns with the target classifications, enabling an assessment of its accuracy in distinguishing and categorizing various features within the dataset.
+</p>
+
+<div style="display: flex; justify-content: space-around;">
+    <figure style="max-width: 48%; text-align: center;">
+        <img src="assets/fig/cm_norm.png" alt="" style="max-width: 100%;">
+        <figcaption><b>Fig-1: </b>Normalized Confusion Matrix</figcaption>
+    </figure>
+
+    <figure style="max-width: 52%; text-align: center;">
+        <img src="assets/fig/cm_sam.png" alt="" style="max-width: 100%;">
+        <!-- <figcaption><b>Fig-2: </b>Sampled Confusion Matrix</figcaption> -->
+    </figure>
+    
+</div>
+
+                    <p>
+
+Despite efforts to emphasize the water region by clipping the data, an inherent imbalance persisted in the dataset, as revealed by the calculation of a confusion matrix using our test data. This imbalance in the point cloud data prompted the generation of a sampled dataset, where the sampled values for each class were derived from the lowest amount of data within that class. The resulting sampled confusion matrix was then utilized to assess the accuracy of classification and identify instances of misclassification. The rationale behind this sampling approach lies in its ability to address the challenges posed by imbalanced data. By selecting data from the class with the lowest representation, this strategy ensures a proportional distribution of minimal counts across all other classes, mitigating the impact of imbalances and normalizing the presence of the least common class throughout various categories. The superiority of the sampled confusion matrix lies in its capacity to provide a more equitable representation of each class, preventing undue influence from overrepresented classes and enhancing the model's ability to generalize across different categories. Moreover, by addressing imbalances, the sampled confusion matrix offers a more accurate reflection of the model's performance, particularly in scenarios where certain classes may have been overshadowed by more dominant ones in the original dataset. In essence, the sampled confusion matrix serves as a refined and unbiased evaluation tool, providing nuanced insights into the deep learning model's classification capabilities.
+                    </p>
+                      <figure style="max-width: 100%; text-align: center;">
+                        <img src="assets/fig/cm_normalized.png" alt="" style="max-width: 100%;">
+                        <figcaption><b>Fig-3: </b>X-Convolution of PointCNN</figcaption>
+                      </figure>
+                    
+                <p>
+
+The normalized confusion matrix was constructed to elucidate the inter-class relationships on a scale, providing insights into the patterns of misclassifications. Notably, the ground class exhibited misclassifications with the default class, potentially attributable to the presence of rough terrain and inherent challenges in the dataset. Furthermore, the water bottom region displayed slight misclassifications with the ground, likely stemming from surface similarities. Interestingly, the river surface encountered misclassifications with itself, albeit at a lower frequency, warranting further investigation into the underlying causes. The matrix serves as a valuable tool for comprehending the nuanced dynamics of misclassifications among different classes, shedding light on specific areas that merit attention for model improvement.
+                </p>
+                      <br>
+                      
+                      <br>
+                      
+
+                    <h4>Performance Metrics</h4>
+
+                    <table>
+                      <tr>
+                        <th>Class</th>
+                        <th>IoU</th>
+                        <th>Accuracy</th>
+                        <th>Precision</th>
+                        <th>Recall</th>
+                        <th>F1</th>
+                        <th>Kappa</th>
+                        <th>Commission<br> Error</th>
+                        <th>Omission<br> Error</th>
+                      </tr>
+                      <tr>
+                        <td>Default</td>
+                        <td>0.9138</td>
+                        <td>0.9344</td>
+                        <td>0.9276</td>
+                        <td>0.984</td>
+                        <td>0.955</td>
+                        <td>0.8346</td>
+                        <td>0.0724</td>
+                        <td>0.016</td>
+                      </tr>
+                      <tr>
+                        <td>Ground</td>
+                        <td>0.8925</td>
+                        <td>0.9138</td>
+                        <td>0.9549</td>
+                        <td>0.9318</td>
+                        <td>0.9432</td>
+                        <td>0.7642</td>
+                        <td>0.0451</td>
+                        <td>0.0682</td>
+                      </tr>
+                      <tr>
+                        <td>Riverbed</td>
+                        <td>0.9348</td>
+                        <td>0.9492</td>
+                        <td>0.9722</td>
+                        <td>0.9605</td>
+                        <td>0.9663</td>
+                        <td>0.8628</td>
+                        <td>0.0278</td>
+                        <td>0.0395</td>
+                      </tr>
+                      <tr>
+                        <td>River Surface</td>
+                        <td>0.9731</td>
+                        <td>0.9794</td>
+                        <td>0.9964</td>
+                        <td>0.9766</td>
+                        <td>0.9864</td>
+                        <td>0.9438</td>
+                        <td>0.0036</td>
+                        <td>0.0234</td>
+                      </tr>
+
+                    </table>
+                    <br>
+
+<p>The presented table encapsulates a comprehensive evaluation of a deep learning model's performance across distinct classes, employing a suite of metrics to assess its classification accuracy. For the Default class, the model demonstrates robust performance, as indicated by a high Intersection over Union (IoU) of 0.9138, an Accuracy of 0.9344, and balanced Precision and Recall values. The F1 score, Kappa coefficient, Commission Error, and Omission Error collectively underscore the model's accurate classification with minimal errors.</p>
+
+<p>Moving to the Ground class, the model exhibits a commendable IoU of 0.8925, signifying substantial overlap between predicted and true values. Balanced Precision and Recall contribute to an Accuracy of 0.9138, while the Kappa coefficient indicates good agreement. However, the Commission and Omission Errors reveal some misclassifications, particularly in omission.</p>
+
+<p>The Riverbed class showcases excellent performance, characterized by a high IoU of 0.9348, an Accuracy of 0.9492, and impressive Precision and Recall values. Both the F1 score and Kappa coefficient affirm the model's strong overall performance, with minimal Commission and Omission Errors.</p>
+
+<p>Finally, for the River Surface class, the model excels with a remarkable IoU of 0.9731, an Accuracy of 0.9794, and near-perfect Precision and Recall values. The F1 score and Kappa coefficient underscore the high quality of predictions, with minimal Commission and Omission Errors, indicating precise classification of the river surface. Collectively, these metrics offer a nuanced and detailed understanding of the model's proficiency in accurately classifying diverse classes, highlighting areas of strength and potential improvement.</p>
+
+
+                </div>
+            </section>
+            <hr class="m-0" />         
+            <!-- futurework-->
+            <section class="resume-section" id="futurework">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Future Work</h2>
+                    <p>
+                        From a data perspective, the ongoing evaluation of the model warrants testing in diverse geographical areas to gauge its performance across varied landscapes. The results obtained will inform the necessity of expanding the training dataset to enhance the model's adaptability to different terrains. On the algorithmic front, there is a need to investigate the impact of increasing the model's layers and parameters. Specifically, exploring the augmentation of PointCNN with additional layers and parameters is essential to ascertain whether improved performance can be achieved. Additionally, a comparative analysis involving other deep learning models will provide insights into their efficacy, thereby contributing to a more comprehensive understanding of the optimal architecture for the given classification task. This multifaceted examination aligns with the iterative nature of model development, aiming to refine both data and algorithmic components for enhanced performance and generalizability.
+                    </p>
+                 </div>
+            </section>
+            <hr class="m-0" />
+
+
+
+
+
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
